@@ -1,8 +1,8 @@
 # LaxStore
 ==============
 
-- By Vhugala
-- Online Shopping & Banking Application
+- ## By Vhugala
+- **Online Shopping & Banking Application**
 
 Information
 ---------------
