@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaxStore - Products</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+	/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .logo {
+    float: left;
+    font-size: 2rem;
+}
+header nav {
+    float: right;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.hero .btn {
+    background: #ff9900;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.products .product-list {
+    display: flex;
+    justify-content: space-around;
+}
+.products .product {
+    text-align: center;
+}
+.products .product img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.products .product .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+.contact form .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    header .logo, header nav {
+        float: none;
+        text-align: center;
+    }
+    header nav ul {
+        padding: 0;
+    }
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .products .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products .product {
+        margin-bottom: 2rem;
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+	</style>
+	
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">LaxStore</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product" id="product1">
+                    <img src="C:\Users\User\OneDrive\Pictures\Laxie\IMG_4044.jpg" alt="Product 1">
+                    <h3>Black Panther</h3>
+                    <p>R1700.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product" id="product2">
+                    <img src="C:\Users\User\OneDrive\Pictures\IMG-20230226-WA0030.jpg" alt="Product 2">
+                    <h3>Night Out</h3>
+                    <p>R988.90</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="product" id="product3">
+                    <img src="C:\Users\User\OneDrive\Pictures\family\IMG_9624.jpg" alt="Product 3">
+                    <h3>Simplicity</h3>
+                    <p>R780.00</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LaxStore. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
