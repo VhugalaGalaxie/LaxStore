@@ -67,4 +67,4 @@ Here are some related projects that you might find interesting:
 
 ## Licensing
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/VhugalaGalaxie/LaxStore/blob/main/LICENSE) file for more information.
