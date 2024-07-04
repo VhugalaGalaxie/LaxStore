@@ -5,7 +5,7 @@
 Welcome to **LaxStore** - Your Ultimate Shopping Experience. LaxStore is a comprehensive online shopping platform designed to provide a seamless, secure, and enjoyable shopping experience for customers while offering robust tools for sellers to reach a broader audience.
 
 **Deployed Site:** [LaxStore Live]((https://drive.google.com/file/d/1t2N4isq2a4vk45vngMpfuUP0EhyE_Ppd/view?usp=sharing))  
-**Final Project Blog Article:** [LaxStore Project Blog]((https://medium.com/@support_99553/laxstore-the-ultimate-shopping-experience-550a671b37f6))  
+**Final Project Blog Article:** [LaxStore Project Blog](https://medium.com/@support_99553/laxstore-the-ultimate-shopping-experience-550a671b37f6)
 **Author's LinkedIn:** [Vhugala Mutshembele](https://www.linkedin.com/in/vhugala)
 
 ## Installation
