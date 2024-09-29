@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+  <link rel="stylesheet" href="check_style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+  <nav>
+    <div class="nav-left">
+      <div class="menu-icon">&#9776;</div>
+      <a href="index.html">
+      <div class="brand-name">LaxStore </div>
+      </a>
+    </div>
+    <div class="nav-right">
+      <div class="sign-in-icon" onclick="openSignIn()">🔒</div>
+    </div>
+  </nav>
+
+
+ <h2>Checkout</h2>
+
+    <div class="cart-items">
+        <h3>Selected Items</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Size</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items-list">
+                <!-- Items will be dynamically generated -->
+                <tr>
+                    <td>Swear Ex 01</td>
+                    <td>R1050.00</td>
+                    <td>M</td>
+                    <td>1</td>
+                    <td>R1050.00</td>
+                </tr>
+                <!-- Add more items here -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="totals">
+        <h3>Order Summary</h3>
+        <p>Subtotal: <span id="subtotal">R1050.00</span></p>
+        <p>VAT (15%): <span id="vat">R157.50</span></p>
+        <p>Total: <span id="total">R1207.50</span></p>
+    </div>
+
+    <form action="/checkout" method="POST" class="checkout-form">
+        <h3>Checkout Form</h3>
+
+        <label for="customer-name">Full Name:</label>
+        <input type="text" id="customer-name" name="customer-name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="address">Home Address:</label>
+        <input type="text" id="address" name="address" placeholder="Enter your home address" required>
+
+        <label for="gps">GPS Location:</label>
+        <input type="text" id="gps" name="gps" placeholder="Enter your GPS location" required>
+
+        <label for="payment-method">Payment Method:</label>
+        <select id="payment-method" name="payment-method" required>
+            <option value="credit-card">Credit Card</option>
+            <option value="debit-card">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select>
+
+        <label for="card-details">Card Details:</label>
+        <input type="text" id="card-details" name="card-details" placeholder="Card Number" required>
+
+        <label for="card-expiry">Expiry Date:</label>
+        <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/YY" required>
+
+        <label for="card-cvc">CVC:</label>
+        <input type="text" id="card-cvc" name="card-cvc" placeholder="CVC" required>
+
+        <button type="submit" class="checkout-button">Complete Purchase</button>
+    </form>
+
+</body>
+</html>
