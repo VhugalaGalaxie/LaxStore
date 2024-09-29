@@ -111,10 +111,8 @@ Set Environment Variables: If you are using a .env file, ensure it contains your
 
 ### Run the Application: Start the Flask server by running:
 ```
-python lax_app.py
+python lax_access.py
 ```
-_(Replace lax_app.py with the entry point of your application.)_
-
 
 Access the Application: Open your web browser and navigate to http://127.0.0.1:5000 to access LaxStore.
 
@@ -123,15 +121,8 @@ Access the Application: Open your web browser and navigate to http://127.0.0.1:5
 For inquiries, feel free to reach out to Vhugala Mutshembele at vhugalagabriel@gmail.com.
 
 
-
 ### Notes:
 - Replace `<repository-url>` with the actual URL of your repository if you're using a version control system.
-- Update `lax_app.py` to reflect the actual name of your main application file.
-- Ensure to include a `LICENSE` file if you want to specify the licensing terms.
-- Don't forget to provide your email address in the contact section. 
-
-
-
 
 ---
 # Contributing
