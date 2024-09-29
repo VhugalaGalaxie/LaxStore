@@ -92,7 +92,7 @@ sudo mysql_secure_installation
 * Step 5: Then press “y” to set the password. Next press “0” for the low-level password or choose as you want to set the password.
 * Step 6: Set up or create a password
 <br>
-<b>_Now the whole setup is done. Hence, MySQL installation is successfully done!_</b>
+<b> _Now the whole setup is done. Hence, MySQL installation is successfully done!_ </b>
 
 ### Start Database
 ```
