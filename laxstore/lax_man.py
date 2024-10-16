@@ -14,7 +14,7 @@ load_dotenv()
 # Database connection
 db = mysql.connector.connect(
     host="127.0.0.1",
-    user="root",
+    user="root@localhost",
     password="#@VHUgal357.",
     database="LaxStore"
 )
