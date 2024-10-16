@@ -24,7 +24,7 @@ app.secret_key = "laxStore_secret_key_here"  # Replace with a random string
 
 db = mysql.connector.connect(
     host="127.0.0.1",  # This is the IP address of MySQL server
-    user="root",  # MySQL username
+    user="root@localhost",  # MySQL username
     password="#@VHUgal357.",  # MySQL password
     database="LaxStore"  # The name of the database
 )
